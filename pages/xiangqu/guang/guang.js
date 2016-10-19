@@ -46,24 +46,32 @@ Page({
       title2: '毛衣推荐',
       title3: '查看全部'
     }],
+    list1: [
+      {
+        pic1: 'http://xqproduct.xiangqu.com/FsKnSlXNE-0ikcVL4y4gX7VODuJV?imageView2/2/w/800/q/90/format/jpg/960x615/',
+        title11: '厨房生活美学',
+        title21: '餐具',
+        title31: '查看全部'
+      }
+    ],
     scrolllist: [
       {
         ima: 'http://xqproduct.xiangqu.com/FjisZcbRUw6sQcPntM3eJ1bQAdj-?imageView2/2/w/240/q/90/format/jpg/606x606/',
-        // name: 'EYMY',
-        // name1: '毛衣外套 • 秋冬',
-        // name2: '￥228'
       },
       {
         ima: 'http://xqproduct.xiangqu.com/FtPrN5K9-OYdfgQXdN1vvg1IpdIB?imageView2/2/w/240/q/90/format/jpg/750x750/',
-        // name: '本相织物',
-        // name1: '针织开衫 • 宽松毛衣',
-        // name2: '￥1199'
       },
       {
         ima: 'http://xqproduct.xiangqu.com/FqWj8UP2Pzv9W_YTjlnL4NrzzlRe?imageView2/2/w/240/q/90/format/jpg/1000x1000/'
       },
       {
         ima: 'http://xqproduct.xiangqu.com/Ft6eO1aJ9w22bVOzhdNxDFJ9_INl?imageView2/2/w/240/q/90/format/jpg/800x800/'
+      },
+      {
+        ima: 'http://xqproduct.xiangqu.com/FmUNenanRev-PUa2Qu6JcLH3GyHj?imageView2/2/w/240/q/90/format/jpg/1000x1000/'
+      },
+      {
+        ima: 'http://xqproduct.xiangqu.com/FrNzok63xKhlWOFQErO7mkhh0C9I?imageView2/2/w/240/q/90/format/jpg/600x800/'
       }
     ]
   },

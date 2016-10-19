@@ -108,20 +108,26 @@ header{
   z-index: 10;
 
 }
-.scrollul{
+.scroll-list{
   position: absolute;
   left: 0;
   top: 250px;
+}
+.scrollul{
+
   display: flex;
   flex-wrap: nowrap;
 }
+.new .scrollul li{
+  position: relative;
+}
 .new .scrollul image{
+  flex: 1;
   width: 120px;
   height: 120px;
 }
-.new .scrollul b{
-  color: #000;
-}
-.new .scrollul span{
-  color: #000;
+.new1{
+  position: absolute;
+  left: 0;
+  top: 540px;
 }

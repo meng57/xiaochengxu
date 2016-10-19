@@ -22,18 +22,15 @@
     <b>{{item.title1}}</b>
     <span>{{item.title2}}</span>
     <p>{{item.title3}}</p>
-
+<scroll-view scroll-x="true" class="scroll-list">
     <ul class="scrollul">
-      <scroll-view scroll-x="true">
       <li wx:for-items="{{scrolllist}}">
         <image src="{{item.ima}}"></image>
-        <b>{{item.name}}</b>
-        <span>{{item.name1}}</span>
-        <p>{{item.name2}}</p>
       </li>
-        </scroll-view>
     </ul>
-
+  </scroll-view>
   </view>
+<view wx:for-items="{{list1}}" class="new1">
+  <image src="{{item.pic1}}" class="pica"></image>
 </view>
 </view>
