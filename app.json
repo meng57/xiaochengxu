@@ -1,0 +1,54 @@
+{
+  "pages":[
+    "pages/xiangqu/guang/guang",
+    "pages/xiangqu/zhuanti/zhuanti",
+    "pages/xiangqu/shejishi/shejishi",
+    "pages/xiangqu/TAshuo/TAshuo",
+    "pages/xiangqu/wode/wode",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#058",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#d9a700",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/xiangqu/zhuanti/zhuanti",
+        "text": "专题",
+        "iconPath": "images/icn_zhuanti.png",
+        "selectedIconPath": "images/icn_zhuanti_highlight.png"
+      },
+      {
+        "pagePath": "pages/xiangqu/shejishi/shejishi",
+        "text": "设计师",
+        "iconPath": "images/icn_designer.png",
+        "selectedIconPath": "images/icn_designer_highlight.png"
+      },
+      {
+        "pagePath": "pages/xiangqu/TAshuo/tashuo",
+        "iconPath": "images/icn_tashuo.png",
+        "selectedIconPath": "images/icn_tashuo_highlight.png",
+        "text": "TA说"
+      },
+      {
+        "pagePath": "pages/xiangqu/guang/guang",
+        "iconPath": "images/icn_guang.png",
+        "selectedIconPath": "images/icn_guang_highlight.png",
+        "text": "逛"
+      },
+      {
+        "pagePath": "pages/xiangqu/wode/wode",
+        "iconPath": "images/icn_mycenter.png",
+        "selectedIconPath": "images/icn_mycenter_highlight.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

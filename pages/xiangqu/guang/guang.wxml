@@ -1,0 +1,39 @@
+<view class="guang">
+<header>
+  <view class="search">
+    <image class="pic1" src="{{src}}"></image>
+    <input class="in" type="text" value="{{text}}"/>
+    <image class="pic2" src="{{src1}}"></image>
+  </view>
+  <image class="message" src="{{src2}}"></image>
+</header>
+<nav>
+  <ul class="navlist">
+    <li wx:for-items="{{imgUrls}}">
+      <image src="{{item.img}}"></image>
+      <b>{{item.title}}</b>
+    </li>
+  </ul>
+</nav>
+<view>
+  <view wx:for-items="{{list}}" class="new">
+    <view class="beijing"></view>
+    <image src="{{item.pic}}" class="pic"></image>
+    <b>{{item.title1}}</b>
+    <span>{{item.title2}}</span>
+    <p>{{item.title3}}</p>
+
+    <ul class="scrollul">
+      <scroll-view scroll-x="true">
+      <li wx:for-items="{{scrolllist}}">
+        <image src="{{item.ima}}"></image>
+        <b>{{item.name}}</b>
+        <span>{{item.name1}}</span>
+        <p>{{item.name2}}</p>
+      </li>
+        </scroll-view>
+    </ul>
+
+  </view>
+</view>
+</view>

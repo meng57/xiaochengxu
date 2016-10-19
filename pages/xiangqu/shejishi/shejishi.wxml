@@ -1,0 +1,56 @@
+<view class="shejishicontainer">
+<image class="img" src="{{src}}"></image>
+<nav class="shejishi-nav">
+  <ul>
+    <li class="{{current == 0 ? 'active' : ''}}" catchtap="switchSlider" data-index="0">行业</li>
+    <li class="{{current == 1 ? 'active' : ''}}" catchtap="switchSlider" data-index="1">风格</li>
+  </ul>
+</nav>
+<swiper class="shejishi-list" indicator-dots="{{swiper.indicatorDots}}" autoplay="{{swiper.autoplay}}" interval="{{swiper.interval}}" duration="{{swiper.duration}}" current="{{current}}" bindchange="changeSlider">
+<swiper-item>
+<scroll-view scroll-y="true" bindscrolltoupper="actionToupper" bindscrolltolower="actionTolower" upper-threshold="0" lower-threshold="0">
+  <ul class="mylist">
+    <li>
+      <image src="{{li1}}"></image>
+    </li>
+    <li>
+      <image src="{{li2}}"></image>
+    </li>
+    <li>
+      <image src="{{li3}}"></image>
+    </li>
+    <li>
+      <image src="{{li4}}"></image>
+    </li>
+    <li>
+      <image src="{{li5}}"></image>
+    </li>
+    <li>
+      <image src="{{li6}}"></image>
+    </li>
+  </ul>
+</scroll-view>
+</swiper-item>
+<swiper-item>
+  <ul class="mylist1">
+    <li>
+      <image src="{{li21}}"></image>
+    </li>
+    <li>
+        <image src="{{li22}}"></image>
+    </li>
+    <li>
+        <image src="{{li23}}"></image>
+    </li>
+    <li>
+      <image src="{{li24}}"></image></li>
+    <li>
+      <image src="{{li25}}"></image>
+    </li>
+    <li>
+      <image src="{{li26}}"></image>
+    </li>
+  </ul>
+</swiper-item>
+</swiper>
+</view>
